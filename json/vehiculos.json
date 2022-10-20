@@ -1,0 +1,110 @@
+[
+    {
+        "id":1,
+        "marca":"BMW",
+        "modelo": "330",
+        "anio":2019,
+        "km":80000,
+        "precio":52900,
+        "img":"330.jpg"
+    },
+    {
+        "id":2,
+        "marca":"BMW",
+        "modelo": "M4",
+        "anio":2018,
+        "km":12500,
+        "precio":115000,
+        "img":"m4.jpg"
+    },
+    {
+        "id":3,
+        "marca":"BMW",
+        "modelo": "M5",
+        "anio":2019,
+        "km":11000,
+        "precio":218300,
+        "img":"m5.jpg"
+    },
+    {
+        "id":4,
+        "marca":"MERCEDES BENZ",
+        "modelo": "AMG",
+        "anio":2019,
+        "km":80000,
+        "precio":52900,
+        "img":"am4.jpeg"
+    },
+    {
+        "id":5,
+        "marca":"MERCEDES BENZ",
+        "modelo": "A200",
+        "anio": 2018,
+        "km": 18000,
+        "precio":34000,
+        "img":"a200.jpg"
+    },
+    {
+        "id":6,
+        "marca":"TOYOTA",
+        "modelo": "COROLLA",
+        "anio":2022,
+        "km":50000,
+        "precio": 25000,
+        "img":"corolla.jpg"
+    },
+    {
+        "id":7,
+        "marca":"VOLKSWAGEN",
+        "modelo": "VENTO",
+        "anio":2017,
+        "km":90000,
+        "precio": 20000,
+        "img":"vento.jpg"
+    },
+    {
+        "id":8,
+        "marca":"VOLKSWAGEN",
+        "modelo": "GOLF",
+        "anio":2018,
+        "km":75000,
+        "precio": 35000,
+        "img":"golf.jpg"
+    },
+    {
+        "id":9,
+        "marca":"CHEVROLET",
+        "modelo": "CAMARO",
+        "anio":2019,
+        "km":25000,
+        "precio": 70000,
+        "img":"camaro.jpg"
+    },
+    {
+        "id":10,
+        "marca":"TOYOTA",
+        "modelo": "YARIS",
+        "anio":2018,
+        "km":25000,
+        "precio": 80000,
+        "img":"yaris.jpg"
+    },
+    {
+        "id":11,
+        "marca":"TOYOTA",
+        "modelo": "COROLLA",
+        "anio":2021,
+        "km":48000,
+        "precio": 27500,
+        "img":"corolla.jpg"
+    },
+    {
+        "id":12,
+        "marca":"VOLKSWAGEN",
+        "modelo": "VENTO",
+        "anio":2012,
+        "km":75000,
+        "precio": 18000,
+        "img":"vento.jpg"
+    }
+]

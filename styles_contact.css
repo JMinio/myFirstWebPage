@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+}
+
+body{
+    background-image: url(./img/stock.jpg);
+    background-size: cover;
+}
+
+.contenedor_nav{
+    width: 100%;
+    top:-0px;
+    position: fixed;
+    z-index: 999;
+    /* POR SI QUIERO PONERLE UNA IMAGEN DE FONDO
+    background-image: linear-gradient(rgba(5,10,5,0.80), rgba(90,40,90,0.80)), url( #INSERTAR/URL/DE/IMAGEN);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    */
+}
+
+.navbar_main{  
+    height: 16vh;
+    background-color: #100F0F;
+    width: 100%;
+    margin: auto; 
+    padding: 20px 0;
+    /* USAMOS FLEXBOX PARA SEPARAR EL LOGO DE LOS ENLACES*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_main-logo{
+    margin-left: 20px;
+    width: 80px;
+}
+
+.navbar_main-switch{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+    .darkmode_dark{
+        width: 20px;
+    }
+
+    .darkmode_light{
+        width: 20px;
+    }
+
+.navbar_main ul li{
+    list-style: none;  /*CHAU LISTAS*/
+    display: inline-block; /*uno alado del otro*/
+    margin: 0 20px; /*20px a los costados*/
+    position: relative;
+}
+
+.navbar_main ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* ANIMO LOS BOTONES DEL NAVBAR */
+
+.navbar_main ul li::before{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: white;
+    position: absolute;
+    left:0;
+    bottom: -12px;
+    transition: .2s ease-in-out;
+}
+
+.navbar_main ul li:hover::before{
+    width: 100%;
+}
+
+    #formulario{
+        border-radius: 10px;
+        background-color: black;
+        padding: 10px;
+        margin: 120px 0 120px 200px;
+        width: 400px;
+    }
+
+    .aclaraciones{
+        display: inline-block;
+    }
